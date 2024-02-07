@@ -2,14 +2,14 @@
 *Eindopdracht voor het vak HTML-CSS Advanced*
 ---
 
-##Opgave##
+## Opgave ##
 De opdracht is simpel: bouw een webpagina naar keuze na in HTML en CSS. De pagina moet uiteraard voldoende uitdagend zijn qua lay-out en animaties. Het al dan niet gebruiken van een CSS-Framework is vrij te kiezen.
 
-##Invulling##
+## Invulling ##
 Ik heb gekozen voor de homepage van [Lemonlive](https://lemonlive.be/) en framework [Bootstrap](https://getbootstrap.com/).
 
-##Highlights
-###Moeilijkste code ~~tot nu toe~~ in opmaak:
+## Highlights ##
+### Moeilijkste code ~~tot nu toe~~ in opmaak ###
 ```
     @keyframes marker {
         from {background-position: 0;}
@@ -26,10 +26,10 @@ Ik heb gekozen voor de homepage van [Lemonlive](https://lemonlive.be/) en framew
     }
 
 ```
-###More to come
+### More to come ###
 ==Watch this space!==
 
-##To do
+## To do ##
 -[x] Project initialiseren: aanmaak bestanden, links leggen, ...
 -[x] Afbeeldignen downloaden (bedankt Dominique)
 -[x] Navbar namaken
@@ -39,7 +39,7 @@ Ik heb gekozen voor de homepage van [Lemonlive](https://lemonlive.be/) en framew
 
 ---
 
-##Nog wat markdown:
+## Nog wat markdown ##
 1. **bold**
 2. > blocquote die iets te kort is
    > maar je ziet wat de bedoeling is
