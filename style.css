@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Noto+Sans&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+:root {
+    --kleur1:#ffffff;
+    --kleur2:#1f183a;
+    --kleur3:#8d22e5;
+    --kleur4:#5a5df0;
+    --kleur5:#fec005;
+    --kleur6:#f2f2fe;
+}
+body {
+    margin: 0;
+    color: var(--kleur1);
+    font-family: 'Noto Sans', sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    width: auto;
+    height: 100%;
+    font-weight: bolder;
+}
+h2 {
+    font-family: 'Alata', sans-serif;
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+/* ALGEMENE CLASSES */
+    .flex {
+        display: flex;
+    }
+    .column {
+        flex-direction: column;
+    }
+    .justBetween {
+        justify-content: space-between;
+    }
+    .alignCenter { /*werkt enkel indien hoogte ingesteld*/
+        align-items: center;
+    }
+    .fs80 {
+        font-size: 80%;
+    }
+    .fc2 {
+        color:var(--kleur2);
+    }
+    .fc5 {
+        color:var(--kleur5);
+    }
+    .bgc4 {
+        background-color: var(--kleur4);
+    }
+    .bgc6 {
+        background-color: var(--kleur6);
+    }
+    .height30 {
+        height: 30px;
+    }
+    .height71 {
+        height: 71px;
+    }
+    .noBullets {
+        list-style: none;
+    }
+
+/* SPECIFIEKE ELEMENTEN */
+    .topbar {
+        background-image: linear-gradient(to right, var(--kleur3), var(--kleur4));
+        height: 40px;
+    }
+    .topLink {
+        margin-left: 1rem;
+    }
+    .intro {
+        background-image: url('./images/ll-winand-2560x1000-1.jpg'); /*Moet responsive!*/
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 70vh;
+    }
+    .introBox {
+        width: 50%; /*Moet responsive! Padding/margin wordt hier per breakpoint aangepast*/
+    }
+    .smallYellow {
+        font-size: 80%;
+        color:var(--kleur5);
+    }
+    @keyframes marker { /*werkt niet met width vanwege geen block */
+        from {background-position: 0;}
+        to {background-position: -100%;}
+    }
+    .purpleMarker {
+        background-image: linear-gradient(to right, transparent 50%, var(--kleur3) 50%);
+        background-size: 200%;
+        animation-name: marker;
+        animation-duration: 2s;
+        animation-delay: 2s; /*Hoe ervoor zorgen dat de animatie kort na laden pg begint, maar met een groter interval herhaalt?*/
+        /* animation-iteration-count: infinite; */ 
+        animation-fill-mode: forwards; /*=Let the element retain the style values from the last keyframe when the animation ends:*/
+    }
+
+    .lightning:before {
+        content: '\e0b7'; /*=Font Awesome unicode (rechtsboven bij icoon geopend op FA website)*/
+        font-family: FontAwesome;
+        margin-right: 5px; /*Hoe zelfde inspringing op tweede regel verkrijgen?*/
+        color: var(--kleur5)
+    }
+    .domeinForm>* { /*gaps tussen elementen verwijderen. (Margin/padding=0 werkt niet.)*/
+        height: 50px;
+    }
+    .domeinTxt {
+        width: 25vw;
+    }
+
+/* BUTTONS */
+    .borderedButton {
+        border-width: 2px ;
+        border-style: solid;
+        transition: 250ms;
+        margin: .3rem 0 0 .5rem;
+    }
+    .bb1 {
+        color: var(--kleur1);
+        border-color: var(--kleur1);
+    }
+    .bb4 {
+        color: var(--kleur4);
+        border-color: var(--kleur4);
+    }
+    .borderedButton:hover {
+        color: var(--kleur1);
+        background-color: var(--kleur4);
+    }
+    .bb1:hover{
+        border-color: var(--kleur3);
+        background-color: var(--kleur3);
+    }
+    .filledButton1 {
+        color: var(--kleur4);
+        background-color: var(--kleur1);
+        border-style: none;
+    }
+    .filledButton4 {
+        color: var(--kleur1);
+        background-color: var(--kleur4);
+        border-style: none;
+    }
+    .filledButton:hover {
+        color: var(--kleur1);
+        background-color: var(--kleur3);
+    }
+
