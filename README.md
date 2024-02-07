@@ -1,4 +1,5 @@
 ![favicon](https://github.com/Amplifiction/EindopdrLemonlive/assets/57922092/cc637708-f2c3-483a-83c4-07f6cb093794) # EINDOPDRACHT LEMONLIVE # ![favicon](https://github.com/Amplifiction/EindopdrLemonlive/assets/57922092/cc637708-f2c3-483a-83c4-07f6cb093794)
+
 *Eindopdracht voor het vak HTML-CSS Advanced*
 ---
 
@@ -28,6 +29,7 @@ Ik heb gekozen voor de homepage van [Lemonlive](https://lemonlive.be/) en framew
 ```
 ### More to come ###
 ==watch this space==! (Hightlighten ==lukt== niet?)
+I need to highlight these ==very important words==.
 
 ## To do ##
 - [x] Project initialiseren: aanmaak bestanden, links leggen, ...
