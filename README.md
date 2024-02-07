@@ -1,6 +1,5 @@
 # EINDOPDRACHT LEMONLIVE #
 *Eindopdracht voor het vak HTML-CSS Advanced*
----
 
 ![favicon](https://github.com/Amplifiction/EindopdrLemonlive/assets/57922092/cc637708-f2c3-483a-83c4-07f6cb093794)
 
