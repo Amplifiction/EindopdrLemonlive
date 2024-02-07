@@ -27,15 +27,15 @@ Ik heb gekozen voor de homepage van [Lemonlive](https://lemonlive.be/) en framew
 
 ```
 ### More to come ###
-==Watch this space!==
+==Watch this space==!
 
 ## To do ##
--[x] Project initialiseren: aanmaak bestanden, links leggen, ...
--[x] Afbeeldignen downloaden (bedankt Dominique)
--[x] Navbar namaken
--[ ] Layout namaken
--[ ] Animaties toevoegen
--[ ] Puntjes op de i: zie comments in HTML en CSS
+- [x] Project initialiseren: aanmaak bestanden, links leggen, ...
+- [x] Afbeeldignen downloaden (bedankt Dominique)
+- [x] Navbar namaken
+- [ ] Layout namaken
+- [ ] Animaties toevoegen
+- [ ] Puntjes op de i: zie comments in HTML en CSS
 
 ---
 
