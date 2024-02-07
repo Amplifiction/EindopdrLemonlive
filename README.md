@@ -1,11 +1,11 @@
-# EINDOPDRACHT LEMONLIVE
+#EINDOPDRACHT LEMONLIVE#
 *Eindopdracht voor het vak HTML-CSS Advanced*
 ---
 
-##Opgave
+##Opgave##
 De opdracht is simpel: bouw een webpagina naar keuze na in HTML en CSS. De pagina moet uiteraard voldoende uitdagend zijn qua lay-out en animaties. Het al dan niet gebruiken van een CSS-Framework is vrij te kiezen.
 
-##Invulling
+##Invulling##
 Ik heb gekozen voor de homepage van [Lemonlive](https://lemonlive.be/) en framework [Bootstrap](https://getbootstrap.com/).
 
 ##Highlights
