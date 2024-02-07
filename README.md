@@ -1,7 +1,8 @@
-![favicon](https://github.com/Amplifiction/EindopdrLemonlive/assets/57922092/cc637708-f2c3-483a-83c4-07f6cb093794) # EINDOPDRACHT LEMONLIVE # ![favicon](https://github.com/Amplifiction/EindopdrLemonlive/assets/57922092/cc637708-f2c3-483a-83c4-07f6cb093794)
-
+# EINDOPDRACHT LEMONLIVE #
 *Eindopdracht voor het vak HTML-CSS Advanced*
 ---
+
+![favicon](https://github.com/Amplifiction/EindopdrLemonlive/assets/57922092/cc637708-f2c3-483a-83c4-07f6cb093794)
 
 ## Opgave ##
 De opdracht is simpel: bouw een webpagina naar keuze na in HTML en CSS. De pagina moet uiteraard voldoende uitdagend zijn qua lay-out en animaties. Het al dan niet gebruiken van een CSS-Framework is vrij te kiezen.
